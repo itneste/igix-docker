@@ -5,5 +5,5 @@ RUN apt-get update && \
     curl \
     && curl -sL https://deb.nodesource.com/setup_14.x | bash - \
     && apt-get install nodejs \
-    && npm install @angular/cli@7.3.9 @farris/jit-engine@1.3.183 -g
+    && npm install -g @angular/cli@7.3.9 @farris/jit-engine@1.3.183
 CMD ["bash"]
